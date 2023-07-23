@@ -7,6 +7,7 @@ import worldImg from "../assets/images/world.png";
 import "../styles/home.css";
 import Subtitle from "./../shared/Subtitle";
 import SearchBar from "../shared/SearchBar";
+import "../App.css";
 
 const Home = () => {
   return (

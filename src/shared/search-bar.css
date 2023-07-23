@@ -2,7 +2,7 @@
   padding: 0.5rem 1rem;
   border-radius: 50px;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-  width: min-content;
+  width: max-content;
   margin-top: 50px;
 }
 
@@ -13,7 +13,7 @@
 
 .form__group input {
   border: none;
-  font: size 0.9rem;
+  font-size: 0.9rem;
   color: var(--heading-color);
   font-weight: 500;
 }
