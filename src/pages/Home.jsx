@@ -9,6 +9,8 @@ import Subtitle from "./../shared/Subtitle";
 import SearchBar from "../shared/SearchBar";
 import "../App.css";
 
+import ServiceList from "../services/ServiceList";
+
 const Home = () => {
   return (
     <>
@@ -49,6 +51,18 @@ const Home = () => {
               </div>
             </Col>
             <SearchBar />
+          </Row>
+        </Container>
+      </section>
+      {/* =========== Hero Section Start */}
+      <section>
+        <Container>
+          <Row>
+            <Col lg="3">
+              <h5 className="services__subtile">What We Serve</h5>
+              <h2 className="services__title">We offer our best services</h2>
+            </Col>
+            <ServiceList />
           </Row>
         </Container>
       </section>
