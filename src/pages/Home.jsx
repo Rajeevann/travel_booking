@@ -20,7 +20,7 @@ const Home = () => {
             <Col lg="6">
               <div className="hero__content">
                 <div className="hero__subtitle d-flex align-items-center">
-                  <Subtitle substitle={"Know Before You Go"} />
+                  <Subtitle subtitle={"Know Before You Go"} />
                   <img src={worldImg} alt="" />
                 </div>
                 <h1>
@@ -59,13 +59,26 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="3">
-              <h5 className="services__subtile">What We Serve</h5>
+              <Subtitle subtitle={"What We Serve"} />
               <h2 className="services__title">We offer our best services</h2>
             </Col>
             <ServiceList />
           </Row>
         </Container>
       </section>
+      {/* =========== Hero Section End */}
+      {/* =========== Feature Section Start */}
+      <section>
+        <Container>
+          <Row>
+            <Col lg="12" className="mb-5">
+              <Subtitle subtitle={"Explore"} />
+              <h2 className="featured__tour-title">Our Featured Tours</h2>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      {/* =========== Feature Section Start */}
     </>
   );
 };
