@@ -1,20 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Lumanosimo&family=Pangolin&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,100;1,200;1,300&family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Pangolin&family=Ubuntu:ital,wght@0,300;1,300&display=swap");
 
 :root {
   --primary-color: #ff7e01;
   --secondary-color: #faa935;
   --heading-color: #0b2727;
   --text-color: #6e7074;
-  --font-name: "Lumanosimo", "serif";
-  --subtitle-font-name: "Poppins", cursive;
+  --font-name: "Josefin Sans";
+  --subtitle-font-name: "Pangolin";
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --font-name: "Josefin Sans";
 }
 
 body {
@@ -32,6 +31,7 @@ h4,
 h5,
 h6 {
   color: var(--heading-color);
+  --font-name-2: "Ubuntu";
 }
 
 a {
@@ -82,6 +82,6 @@ ul {
   padding-right: 1rem;
   border-radius: 50px;
   font-weight: 500;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   color: var(--heading-color);
 }

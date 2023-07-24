@@ -10,6 +10,7 @@ import SearchBar from "../shared/SearchBar";
 import "../App.css";
 
 import ServiceList from "../services/ServiceList";
+import FeaturedTourList from "../components/Featured-tours/FeaturedTourList";
 
 const Home = () => {
   return (
@@ -75,6 +76,7 @@ const Home = () => {
               <Subtitle subtitle={"Explore"} />
               <h2 className="featured__tour-title">Our Featured Tours</h2>
             </Col>
+            <FeaturedTourList />
           </Row>
         </Container>
       </section>
