@@ -12,6 +12,7 @@ import "../App.css";
 
 import ServiceList from "../services/ServiceList";
 import FeaturedTourList from "../components/Featured-tours/FeaturedTourList";
+import MansoryImages from "../components/Image-gallery/MansoryImages";
 
 const Home = () => {
   return (
@@ -131,7 +132,9 @@ const Home = () => {
             <Subtitle subtitle={"Gallery"} />
             <h2 className="gallery__title">Visit our customers tour gallery</h2>
           </Col>
-          <Col lg="12"></Col>
+          <Col lg="12">
+            <MansoryImages />
+          </Col>
         </Row>
       </Container>
       {/* =========== Gallery Section End ============*/}
