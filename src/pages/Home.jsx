@@ -13,6 +13,7 @@ import "../App.css";
 import ServiceList from "../services/ServiceList";
 import FeaturedTourList from "../components/Featured-tours/FeaturedTourList";
 import MansoryImages from "../components/Image-gallery/MansoryImages";
+import Testimonials from "../components/Testimonial/Testimonials";
 
 const Home = () => {
   return (
@@ -138,6 +139,22 @@ const Home = () => {
         </Row>
       </Container>
       {/* =========== Gallery Section End ============*/}
+      {/* =========== Testimonial Section Start ============*/}
+      <section>
+        <Container>
+          <Row>
+            <Col lg="12">
+              <Subtitle subtitle={"Fans Love"} />
+              <h2 className="testimonial__title">What our fans say about us</h2>
+            </Col>
+            <Col lg="12">
+              <Testimonials />
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      {/* =========== Testimonial  Section End ============*/}
     </>
   );
 };
